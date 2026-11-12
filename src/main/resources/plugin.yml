@@ -1,0 +1,15 @@
+name: MeguminStaff
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+author: EnderDevelopment
+description: A custom staff that casts Megumin's Explosion.
+commands:
+  meguminstaff:
+    description: Gives you the Megumin Explosion staff.
+    usage: /meguminstaff
+    permission: meguminstaff.give
+permissions:
+  meguminstaff.give:
+    description: Allows the player to receive the Megumin Explosion staff.
+    default: op
